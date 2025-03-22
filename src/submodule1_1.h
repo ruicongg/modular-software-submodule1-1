@@ -8,6 +8,6 @@
  * 
  * @return A greeting string
  */
-std::string hello();
+std::string hello_from_submodule1_1();
 
 #endif // SUBMODULE1_1_H  
