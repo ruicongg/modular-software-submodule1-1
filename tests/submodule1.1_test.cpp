@@ -3,5 +3,5 @@
 
 TEST(Submodule1_1Test, HelloTest) {
     std::string result = hello();
-    EXPECT_EQ(result, "Hello, World!");
+    EXPECT_EQ(result, "Hello from submodule 1.1");
 }

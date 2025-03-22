@@ -6,5 +6,5 @@
  * @return A greeting string
  */
 std::string hello() {
-    return "Hello, World!";
+    return "Hello from submodule 1.1";
 }

@@ -3,11 +3,15 @@ set -e  # Exit on error
 
 echo "Building and testing Submodule 1.1"
 
-# Create build directory if it doesn't exist
-if [ ! -d "build" ]; then
-    echo "Creating build directory..."
-    mkdir build
+# Remove build directory if it exists
+if [ -d "build" ]; then
+    echo "Removing existing build directory..."
+    rm -rf build
 fi
+
+# Create build directory
+echo "Creating build directory..."
+mkdir build
 
 # Navigate to build directory
 cd build
