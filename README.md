@@ -11,7 +11,7 @@ This repository contains a simple C++ library that serves as Submodule 1_1 in th
 ## Script to build and run the tests
 
 ```bash
-./build_and_run_tests.sh
+./build_and_test.sh
 ```
 
 Alternatively, you can build and run the tests manually:
