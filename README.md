@@ -1,12 +1,20 @@
-# Submodule 1.1
+# Submodule 1_1
 
-This repository contains a simple C++ library that serves as Submodule 1.1 in the modular software architecture.
+This repository contains a simple C++ library that serves as Submodule 1_1 in the modular software architecture.
 
 ## Features
 
 - Device connectivity management
 - Status monitoring
 - Data transmission to devices
+
+## Script to build and run the tests
+
+```bash
+./build_and_run_tests.sh
+```
+
+Alternatively, you can build and run the tests manually:
 
 ## Building
 
@@ -31,7 +39,7 @@ ctest
 Or run the test executable directly:
 
 ```bash
-./build/submodule1.1_test
+./build/submodule1_1_test
 ```
 
 ## Integration
