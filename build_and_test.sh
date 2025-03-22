@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e  # Exit on error
 
-echo "Building and testing Submodule 1.1"
+echo "Building and testing Submodule 1_1"
 
 # Remove build directory if it exists
 if [ -d "build" ]; then

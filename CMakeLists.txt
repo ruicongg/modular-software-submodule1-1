@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(submodule1.1)
+project(submodule1_1)
 
 # Add source directory
 add_subdirectory(src)
